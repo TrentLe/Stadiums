@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS traveller_db;
-CREATE DATABASE traveller_db;
+DROP DATABASE IF EXISTS stadiums_db;
+CREATE DATABASE stadiums_db;
