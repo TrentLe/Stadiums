@@ -2,10 +2,10 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // create our Location model
-class Location extends Model {}
+class NFLStadiums extends Model {}
 
 // create fields/columns for Location model
-Location.init(
+NFLStadiums.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -13,18 +13,26 @@ Location.init(
       primaryKey: true,
       autoIncrement: true
     },
-    location_name: {
+    stadium_name: {
       type: DataTypes.STRING,
       allowNull: false
-    }
+    },
+    city: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    address: {
+      type: DataTypes.STRING,
+      allowNull: true,
+  },
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'location'
+    modelName: 'NFLStadiums'
   }
 );
 
-module.exports = Location;
+module.exports = NFLStadiums;

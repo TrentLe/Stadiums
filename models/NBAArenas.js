@@ -1,11 +1,11 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-// create our Traveller model
-class Traveller extends Model {}
+// create our Location model
+class NBAArena extends Model {}
 
-// create fields/columns for Traveller model
-Traveller.init(
+// create fields/columns for Location model
+NBAArena.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -13,26 +13,26 @@ Traveller.init(
       primaryKey: true,
       autoIncrement: true
     },
-    name: {
+    stadium_name: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    email: {
+    city: {
       type: DataTypes.STRING,
-      allowNull: false,
-      unique: true,
-      validate: {
-        isEmail: true
-      }
-    }
+      allowNull: false
+    },
+    address: {
+      type: DataTypes.STRING,
+      allowNull: true,
   },
+},
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'traveller'
+    modelName: 'NBAArena'
   }
 );
 
-module.exports = Traveller;
+module.exports = NBAArena;
