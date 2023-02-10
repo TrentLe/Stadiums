@@ -1,38 +1,42 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 // create our Location model
-class NBAArena extends Model {}
+class NBAArenas extends Model {}
 
 // create fields/columns for Location model
-NBAArena.init(
+NBAArenas.init(
   {
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true
+      autoIncrement: true,
     },
     stadium_name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     city: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     address: {
       type: DataTypes.STRING,
       allowNull: true,
+    },
+    team: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
-},
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'NBAArena'
+    modelName: "NBAArena",
   }
 );
 
-module.exports = NBAArena;
+module.exports = NBAArenas;

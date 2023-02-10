@@ -1,0 +1,194 @@
+[
+  {
+    "stadium_name": "Amalie Arena",
+    "city": "Tampa, Florida",
+    "address": "401 Channelside Dr",
+    "team": "Tampa Bay Lightning"
+  },
+  {
+    "stadium_name": "American Airlines Center",
+    "city": "Dallas, Texas",
+    "address": "2500 Victory Ave",
+    "team": "Dallas Stars"
+  },
+  {
+    "stadium_name": "Ball Arena",
+    "city": "Denver, Colorado",
+    "address": "1000 Chopper Cir",
+    "team": "Colorado Avalanche"
+  },
+  {
+    "stadium_name": "Bell Centre",
+    "city": "Montréal, Quebec",
+    "address": "1909 Avenue des Canadiens-de-Montréal",
+    "team": "Montréal Canadiens"
+  },
+  {
+    "stadium_name": "Bridgestone Arena",
+    "city": "Nashville, Tennessee",
+    "address": "501 Broadway",
+    "team": "Nashville Predators"
+  },
+  {
+    "stadium_name": "Canada Life Centre",
+    "city": "Winnipeg, Manitoba",
+    "address": "300 Portage Ave",
+    "team": "Winnipeg Jets"
+  },
+  {
+    "stadium_name": "Canadian Tire Centre",
+    "city": "Ottawa, Ontario",
+    "address": "1000 Palladium Dr",
+    "team": "Ottoawa Senators"
+  },
+  {
+    "stadium_name": "Capital One Arena",
+    "city": "Washington, D.C.",
+    "address": "601 F St NW",
+    "team": "Washington Capitals"
+  },
+  {
+    "stadium_name": "Climate Pledge Arena",
+    "city": "Seattle, Washington",
+    "address": "334 1st Ave N",
+    "team": "Seattle Kraken"
+  },
+  {
+    "stadium_name": "Crypto.com Arena",
+    "city": "Los Angeles, California",
+    "address": "1111 S Figueroa St",
+    "team": "Los Angeles Kings"
+  },
+  {
+    "stadium_name": "Enterprise Center",
+    "city": "St. Louis, Missouri",
+    "address": "1401 Clark Ave",
+    "team": "St. Louis Blues"
+  },
+  {
+    "stadium_name": "FLA Live Arena",
+    "city": "Sunrise, Florida",
+    "address": "1 Panther Pkwy",
+    "team": "Florida Panthers"
+  },
+  {
+    "stadium_name": "Honda Center",
+    "city": "Anahiem, California",
+    "address": "2695 E Katella Ave",
+    "team": "Anaheim Ducks"
+  },
+  {
+    "stadium_name": "KeyBank Center",
+    "city": "Buffalo, New York",
+    "address": "1 Seymour H Knox III Plaza",
+    "team": "Buffalo Sabres"
+  },
+  {
+    "stadium_name": "Little Caesars Arena",
+    "city": "Detroit, Michigan",
+    "address": "2645 Woodward Ave",
+    "team": "Detroit Red Wings"
+  },
+  {
+    "stadium_name": "Madison Square Garden",
+    "city": "New York City, New York",
+    "address": "4 Pennsylvania Plaza",
+    "team": "New York Rangers"
+  },
+  {
+    "stadium_name": "Mullett Arena",
+    "city": "Tempe, Arizona",
+    "address": "411 S Packard Dr",
+    "team": "Arizona Coyotes"
+  },
+  {
+    "stadium_name": "Naitonwide Arena",
+    "city": "Columbus, Ohio",
+    "address": "200 W Nationwide Blvd",
+    "team": "Colubus Blue Jackets"
+  },
+  {
+    "stadium_name": "PNC Arena",
+    "city": "Raleigh, North Carolina",
+    "address": "1400 Edwards Mill Rd",
+    "team": "Carolina Hurricanes"
+  },
+  {
+    "stadium_name": "PPG Paints Arena",
+    "city": "Pittsburgh, Pennsylvania",
+    "address": "1001 Fifth Ave",
+    "team": "Pittsburgh Penguins"
+  },
+  {
+    "stadium_name": "Prudental Center",
+    "city": "Newark, New Jersey",
+    "address": "25 Lafayette St",
+    "team": "New Jersey Devils"
+  },
+  {
+    "stadium_name": "Rogers Arena",
+    "city": "Vancouver, British Columbia",
+    "address": "800 Griffiths Way",
+    "team": "Vancouver Canucks"
+  },
+  {
+    "stadium_name": "Rogers Place",
+    "city": "Edmonton, Alberta",
+    "address": "10220 104 Ave NW",
+    "team": "Edmonton Oilers"
+  },
+  {
+    "stadium_name": "SAP Center",
+    "city": "San Jose, California",
+    "address": "525 W Santa Clara St",
+    "team": "San Jose Sharks"
+  },
+  {
+    "stadium_name": "Scotiabank Arena",
+    "city": "Toronto, Ontario",
+    "address": "40 Bay St",
+    "team": "Toronto Maple Leafs"
+  },
+  {
+    "stadium_name": "Scotiabank Saddledome",
+    "city": "Calgary, Alberta",
+    "address": "555 Saddledome Rise SE",
+    "team": "Calgary Flames"
+  },
+  {
+    "stadium_name": "TD Garden",
+    "city": "Boston, Massachusetts",
+    "address": "100 Legends Way",
+    "team": "Boston Bruins"
+  },
+  {
+    "stadium_name": "T-Mobile Arena",
+    "city": "Las Vegas, Nevada",
+    "address": "3780 S Las Vegas Blvd",
+    "team": "Las Vegas Golden Knights"
+  },
+  {
+    "stadium_name": "UBS Arena",
+    "city": "Elmont, New York",
+    "address": "2400 Hempstead Tpke",
+    "team": "New York Islanders"
+  },
+  {
+    "stadium_name": "United Center",
+    "city": "Chicago, Illinois",
+    "address": "1901 W Madison St",
+    "team": "Chicago Blackhawks"
+  },
+  {
+    "stadium_name": "Wells Fargo Center",
+    "city": "Philedelphia, Pennsylvania",
+    "address": "3601 S Broad St",
+    "team": "Philedelphia Flyers"
+  },
+  {
+    "stadium_name": "Xcel Energy Center",
+    "city": "Saint Paul, Minnesota",
+    "address": "199 W Kellogg Blvd",
+    "team": "Minnesota Wild"
+  }
+]

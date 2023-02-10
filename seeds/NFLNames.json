@@ -1,0 +1,182 @@
+[
+  {
+    "stadium_name": "Acrisure Stadium",
+    "city": "Pittsburgh, Pennsylvania",
+    "address": "100 Art Rooney Avenue",
+    "team": "Pittsburgh Steelers"
+  },
+  {
+    "stadium_name": "Allegiant Stadium",
+    "city": "Paradise, Nevada",
+    "address": "3333 Al Davis Way",
+    "team": "Las Vegas Raiders"
+  },
+  {
+    "stadium_name": "Arrowhead Stadium",
+    "city": "Arlington, Texas",
+    "address": "1 AT&T Way",
+    "team": "Dallas Cowboys"
+  },
+  {
+    "stadium_name": "AT&T Stadium",
+    "city": "Kansas City, Missouri",
+    "address": "1 Arrowhead Drive",
+    "team": "Kansas City Chiefs"
+  },
+  {
+    "stadium_name": "Bank of America Stadium",
+    "city": "Charlotte, North Carolina",
+    "address": "800 South Mint Street",
+    "team": "Carolina Panthers"
+  },
+  {
+    "stadium_name": "Caesars Superdome",
+    "city": "New Orleans, Louisiana",
+    "address": "1500 Sugar Bowl Drive",
+    "team": "New Orleans Saints"
+  },
+  {
+    "stadium_name": "Empower Field at Mile High",
+    "city": "Denver, Colorado",
+    "address": "1701 Mile High Stadium Circle",
+    "team": "Denver Broncos"
+  },
+  {
+    "stadium_name": "FedExField",
+    "city": "Landover, Maryland",
+    "address": "1600 FedEx Way",
+    "team": "Washington Commanders"
+  },
+  {
+    "stadium_name": "FirstEnergy Stadium",
+    "city": "Cleveland, Ohio",
+    "address": "100 Alfred Lerner Way",
+    "team": "Cleveland Browns"
+  },
+  {
+    "stadium_name": "Ford Field",
+    "city": "Detroit, Michigan",
+    "address": "2000 Brush Street",
+    "team": "Detroit Lions"
+  },
+  {
+    "stadium_name": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "address": "1 Patriot Place",
+    "team": "New England Patriots"
+  },
+  {
+    "stadium_name": "Hard Rock Stadium",
+    "city": "Miami Gardens, Florida",
+    "address": "347 Don Shula Drive",
+    "team": "Miami Dolphins"
+  },
+  {
+    "stadium_name": "Highmark Stadium",
+    "city": "Orchard Park, New York",
+    "address": "1 Bills Drive",
+    "team": "Buffalo Bills"
+  },
+  {
+    "stadium_name": "Lambeau Field",
+    "city": "Green Bay, Wisconsin",
+    "address": "1265 Lombardi Avenue",
+    "team": "Green Bay Packers"
+  },
+  {
+    "stadium_name": "Levi's Stadium",
+    "city": "Santa Clara, California",
+    "address": "4900 Marie P DeBartolo Way",
+    "team": "San Francisco 49ers"
+  },
+  {
+    "stadium_name": "Lincoln Financial Field",
+    "city": "Philadelphia, Pennsylvania",
+    "address": "1020 Pattison Avenue",
+    "team": "Philadephia Eagles"
+  },
+  {
+    "stadium_name": "Lucas Oil Stadium",
+    "city": "Indianapolis, Indiana",
+    "address": "500 South Capitol Avenue",
+    "team": "Indianapolis Colts"
+  },
+  {
+    "stadium_name": "Lumen Field",
+    "city": "Seattle, Washington",
+    "address": "800 Occidental Avenue South",
+    "team": "Seattle Seahawks"
+  },
+  {
+    "stadium_name": "M&T Bank Stadium",
+    "city": "Baltimore, Maryland",
+    "address": "1101 Russell Street",
+    "team": "Baltimore Ravens"
+  },
+  {
+    "stadium_name": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "address": "1 AMB Drive Northwest",
+    "team": "Atlanta Falcons"
+  },
+  {
+    "stadium_name": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "address": "1 MetLife Stadium Drive",
+    "team": "New York Giants"
+  },
+  {
+    "stadium_name": "Nissan Stadium",
+    "city": "Nashville, Tennessee",
+    "address": "1 Titans Way",
+    "team": "Tennesssee Titans"
+  },
+  {
+    "stadium_name": "NRG Stadium",
+    "city": "Houston, Texas",
+    "address": "1 NRG Parkway",
+    "team": "Houston Texans"
+  },
+  {
+    "stadium_name": "Paycor Stadium",
+    "city": "Cincinnati, Ohio",
+    "address": "1 Paycor Stadium",
+    "team": "Cincinnati Bengals"
+  },
+  {
+    "stadium_name": "Raymond James Stadium",
+    "city": "Tampa, Florida",
+    "address": "4201 North Dale Mabry Highway",
+    "team": "Tampa Bay Buccaneers"
+  },
+  {
+    "stadium_name": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "address": "1001 South Stadium Drive",
+    "team": "Los Angeles Rams"
+  },
+  {
+    "stadium_name": "Soldier Field",
+    "city": "Chicago, Illinois",
+    "address": "1410 Special Olympics Drive",
+    "team": "Chicago Bears"
+  },
+  {
+    "stadium_name": "State Farm Stadium",
+    "city": "Glendale, Arizona",
+    "address": "1 Cardinals Drive",
+    "team": "Arizona Cardinals"
+  },
+  {
+    "stadium_name": "TIAA Bank Field",
+    "city": "Jacksonville, Florida",
+    "address": "1 TIAA Bank Field Drive",
+    "team": "Jacksonville Jaguars"
+  },
+  {
+    "stadium_name": "U.S. Bank Stadium",
+    "city": "Minneapolis, Minnesota",
+    "address": "401 Chicago Avenue",
+    "team": "Minnesota Vikings"
+  }
+]

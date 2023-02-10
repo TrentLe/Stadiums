@@ -1,0 +1,182 @@
+[
+  {
+    "stadium_name": "American Airlines Center",
+    "city": "Dallas, Texas",
+    "address": "2500 Victory Avenue",
+    "team": "Dallas Mavericks"
+  },
+  {
+    "stadium_name": "Amway Center",
+    "city": "Orlando, Florida",
+    "address": "400 West Church Street",
+    "team": "Orlando Magic"
+  },
+  {
+    "stadium_name": "AT&T Center",
+    "city": "San Antonio, Texas",
+    "address": "1 AT&T Center Parkway",
+    "team": "San Antonio Spurs"
+  },
+  {
+    "stadium_name": "Ball Arena",
+    "city": "Denver, Colorado",
+    "address": "1000 Chopper Circle",
+    "team": "Denver Nuggets"
+  },
+  {
+    "stadium_name": "Barclays Center",
+    "city": "Brooklyn, New York",
+    "address": "620 Atlantic Avenue",
+    "team": "Brooklyn Nets"
+  },
+  {
+    "stadium_name": "Capital One Arena",
+    "city": "Washington, D.C.",
+    "address": "601 F Street NW",
+    "team": "Washington Wizards"
+  },
+  {
+    "stadium_name": "Chase Center",
+    "city": "San Francisco, California",
+    "address": "1 Warriors Way",
+    "team": "Golden State Warriors"
+  },
+  {
+    "stadium_name": "Crypto.com Arena",
+    "city": "Los Angeles, California",
+    "address": "1111 South Figueroa Street",
+    "team": "Los Angeles Lakers"
+  },
+  {
+    "stadium_name": "Crypto.com Arena",
+    "city": "Los Angeles, California",
+    "address": "1111 South Figueroa Street",
+    "team": "Los Angeles Clippers"
+  },
+  {
+    "stadium_name": "FedExForum",
+    "city": "Memphis, Tennessee",
+    "address": "191 Beale Street",
+    "team": "Memphis Grizzlies"
+  },
+  {
+    "stadium_name": "Fiserv Forum",
+    "city": "Milwaukee, Wisconsin",
+    "address": "1111 Vel R. Phillips Avenue",
+    "team": "Milwaukee Bucks"
+  },
+  {
+    "stadium_name": "Footprint Center",
+    "city": "Phoenix, Arizona",
+    "address": "201 East Jefferson Street",
+    "team": "Phoenix Suns"
+  },
+  {
+    "stadium_name": "Gainbridge Fieldhouse",
+    "city": "Indianapolis, Indiana",
+    "address": "125 South Pennsylvania Street",
+    "team": "Indiana Pacers"
+  },
+  {
+    "stadium_name": "Golden 1 Center",
+    "city": "Sacramento, California",
+    "address": "500 David J. Stern Walk",
+    "team": "Sacramento Kings"
+  },
+  {
+    "stadium_name": "Little Caesars Arena",
+    "city": "Detroit, Michigan",
+    "address": "2645 Woodward Avenue",
+    "team": "Detroit Pistons"
+  },
+  {
+    "stadium_name": "Madison Square Garden",
+    "city": "New York City, New York",
+    "address": "4 Pennsylvania Plaza",
+    "team": "New York Knicks"
+  },
+  {
+    "stadium_name": "Miami-Dade Arena",
+    "city": "Miami, Florida",
+    "address": "601 Biscayne Boulevard",
+    "team": "Miami Heat"
+  },
+  {
+    "stadium_name": "Moda Center",
+    "city": "Portland, Oregon",
+    "address": "1 North Center Court Street",
+    "team": "Portland Trail Blazers"
+  },
+  {
+    "stadium_name": "Paycom Center",
+    "city": "Oklahoma City, Oklahoma",
+    "address": "100 West Reno Avenue",
+    "team": "Oklahoma City Thunder"
+  },
+  {
+    "stadium_name": "Rocket Mortgage FieldHouse",
+    "city": "Cleveland, Ohio",
+    "address": "1 Center Court",
+    "team": "Cleveland Cavaliers"
+  },
+  {
+    "stadium_name": "Scotiabank Arena",
+    "city": "Toronto, Ontario",
+    "address": "40 Bay Street",
+    "team": "Toronto Raptors"
+  },
+  {
+    "stadium_name": "Smoothie King Center",
+    "city": "New Orleans, Louisiana",
+    "address": "1500 Dave Dixon Drive",
+    "team": "New Orleans Pelicans"
+  },
+  {
+    "stadium_name": "Spectrum Center",
+    "city": "Charlotte, North Carolina",
+    "address": "333 East Trade Street",
+    "team": "Charlotte Hornets"
+  },
+  {
+    "stadium_name": "State Farm Arena",
+    "city": "Atlanta, Georgia",
+    "address": "1 State Farm Drive",
+    "team": "Atlanta Hawks"
+  },
+  {
+    "stadium_name": "Target Center",
+    "city": "Minneapolis, Minnesota",
+    "address": "600 First Avenue North",
+    "team": "Minnesota Timberwolves"
+  },
+  {
+    "stadium_name": "TD Garden",
+    "city": "Boston, Massachusetts",
+    "address": "100 Legends Way",
+    "team": "Boston Celtics"
+  },
+  {
+    "stadium_name": "Toyota Center",
+    "city": "Houston, Texas",
+    "address": "1510 Polk Street",
+    "team": "Houston Rockets"
+  },
+  {
+    "stadium_name": "United Center",
+    "city": "Chicago, Illinois",
+    "address": "1901 West Madison Street",
+    "team": "Chicago Bulls"
+  },
+  {
+    "stadium_name": "Vivint Arena",
+    "city": "Salt Lake City, Utah",
+    "address": "301 W. South Temple",
+    "team": "Utah Jazz"
+  },
+  {
+    "stadium_name": "Wells Fargo Center",
+    "city": "Philadelphia, Pennsylvania",
+    "address": "3601 South Broad Street",
+    "team": "Philedelphia 76ers"
+  }
+]

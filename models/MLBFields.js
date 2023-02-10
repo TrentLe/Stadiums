@@ -2,10 +2,9 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // create our Location model
-class MLBField extends Model {}
+class MLBFields extends Model {}
 
-// create fields/columns for Location model
-MLBField.init(
+MLBFields.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -25,6 +24,10 @@ MLBField.init(
       type: DataTypes.STRING,
       allowNull: true,
   },
+  team: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
 },
   {
     sequelize,
@@ -35,4 +38,4 @@ MLBField.init(
   }
 );
 
-module.exports = MLBField;
+module.exports = MLBFields;
