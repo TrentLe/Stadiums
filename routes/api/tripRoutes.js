@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const { Trip } = require('../../models');
+const { Visits } = require('../../models');
 
 // CREATE a trip
 router.post('/', async (req, res) => {
   try {
-    const tripData = await Trip.create(req.body);
+    const tripData = await Visits.create(req.body);
     res.status(200).json(tripData);
   } catch (err) {
     res.status(400).json(err);
@@ -14,7 +14,7 @@ router.post('/', async (req, res) => {
 // DELETE a trip
 router.delete('/:id', async (req, res) => {
   try {
-    const tripData = await Trip.destroy({
+    const tripData = await Visits.destroy({
       where: { id: req.params.id }
     });
     if (!tripData) {
