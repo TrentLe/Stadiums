@@ -1,5 +1,5 @@
 const sequelize = require("../config/connection");
-const { NFLStadiums, NBAArenas, MLBFields, NHLArenas } = require("../models");
+const { NFL, NBA, MLB, NHL } = require("../models");
 
 const NFLData = require("./NFLNames.json");
 const NBAData = require("./NBANames.json");
@@ -9,13 +9,13 @@ const NHLData = require("./NHLNames.json");
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
-  await NFLStadiums.bulkCreate(NFLData);
+  await NFL.bulkCreate(NFLData);
 
-  await NBAArenas.bulkCreate(NBAData);
+  await NBA.bulkCreate(NBAData);
 
-  await MLBFields.bulkCreate(MLBData);
+  await MLB.bulkCreate(MLBData);
 
-  await NHLArenas.bulkCreate(NHLData);
+  await NHL.bulkCreate(NHLData);
 
   process.exit(0);
 };
