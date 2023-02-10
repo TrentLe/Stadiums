@@ -1,5 +1,8 @@
 const User = require('./User');
-const Location = require('./MLBFields', './NBAArenas', './NFLStadiums', './NHLArenas');
+const NFL = require('./NFLStadiums');
+const NBA = require('./NBAArenas');
+const MLB = require('./MLBFields');
+const NHL = require('./NHLArenas');
 const Visits = require('./Visits');
 
 User.belongsToMany(Location, {
@@ -22,4 +25,5 @@ Location.belongsToMany(User, {
   as: 'location_travellers'
 });
 
-module.exports = { Traveller: User, Location, Trip: Visits };
+module.exports = { NFL, NBA, MLB, NHL };
+

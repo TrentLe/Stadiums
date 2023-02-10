@@ -2,10 +2,10 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // create our Location model
-class NHLArena extends Model {}
+class NHLArenas extends Model {}
 
 // create fields/columns for Location model
-NHLArena.init(
+NHLArenas.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -25,6 +25,10 @@ NHLArena.init(
       type: DataTypes.STRING,
       allowNull: true,
   },
+  team: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
 },
   {
     sequelize,
@@ -35,4 +39,4 @@ NHLArena.init(
   }
 );
 
-module.exports = NHLArena;
+module.exports = NHLArenas;

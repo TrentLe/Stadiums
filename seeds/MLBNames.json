@@ -1,0 +1,182 @@
+[
+  {
+    "stadium_name": "American Family Field",
+    "city": "Milwaukee, Wisconsin",
+    "address": "1 Brewers Way",
+    "team": "Milwaukee Brewers"
+  },
+  {
+    "stadium_name": "Angel Stadium",
+    "city": "Anaheim, California",
+    "address": "2000 Gene Autry Way",
+    "team": "Los Angeles Angels"
+  },
+  {
+    "stadium_name": "Busch Stadium",
+    "city": "St. Louis, Missouri",
+    "address": "700 Clark Ave",
+    "team": "St. Louis Cardinals"
+  },
+  {
+    "stadium_name": "Chase Field",
+    "city": "Phoenix, Arizona",
+    "address": "401 East Jefferson Street",
+    "team": "Arizona Diamondbacks"
+  },
+  {
+    "stadium_name": "Citi Field",
+    "city": "Flushing, Queens, New York City",
+    "address": "41 Seaver Way",
+    "team": "New York Mets"
+  },
+  {
+    "stadium_name": "Citizens Bank Park",
+    "city": "Philadelphia, Pennsylvania",
+    "address": "One Citizens Bank Way",
+    "team": "Philedelphia Phillies"
+  },
+  {
+    "stadium_name": "Comerica Park",
+    "city": "Detroit, Michigan",
+    "address": "2100 Woodward Avenue",
+    "team": "Detroit Tigers"
+  },
+  {
+    "stadium_name": "Coors Field",
+    "city": "Denver, Colorado",
+    "address": "2001 Blake Street",
+    "team": "Colorado Rockies"
+  },
+  {
+    "stadium_name": "Dodger Stadium",
+    "city": "Los Angeles, California",
+    "address": "1000 Vin Scully Avenue",
+    "team": "Los Angeles Dodgers"
+  },
+  {
+    "stadium_name": "Fenway Park",
+    "city": "Boston, Massachusetts",
+    "address": "4 Jersey Street",
+    "team": "Boston Red Sox"
+  },
+  {
+    "stadium_name": "Globe Life Field",
+    "city": "Arlington, Texas",
+    "address": "734 Stadium Dr. ",
+    "team": "Texas Rangers"
+  },
+  {
+    "stadium_name": "Great American Ball Park",
+    "city": "Cincinnati, Ohio",
+    "address": "100 Joe Nuxhall Way",
+    "team": "Cincinnati Reds"
+  },
+  {
+    "stadium_name": "Guaranteed Rate Field",
+    "city": "Chicago, Illinois",
+    "address": "333 West 35th Street",
+    "team": "Chicago White Sox"
+  },
+  {
+    "stadium_name": "Kauffman Stadium",
+    "city": "Kansas City, Missouri",
+    "address": "1 Royal Way",
+    "team": "Kansas City Royals"
+  },
+  {
+    "stadium_name": "Loan Depot Park",
+    "city": "Miami, Florida",
+    "address": "501 Marlins Way",
+    "team": "Miami Marlins"
+  },
+  {
+    "stadium_name": "Minute Maid Park",
+    "city": "Houston, Texas",
+    "address": "501 Crawford Street",
+    "team": "Houston Astros"
+  },
+  {
+    "stadium_name": "Nationals Park",
+    "city": "Washington, D.C.",
+    "address": "1500 South Capitol Street",
+    "team": "Washington Nationals"
+  },
+  {
+    "stadium_name": "Oracle Park",
+    "city": "San Francisco, California",
+    "address": "24 Willie Mays Plaza",
+    "team": "San Francisco Giants"
+  },
+  {
+    "stadium_name": "Oriole Park at Camden Yards",
+    "city": "Baltimore, Maryland",
+    "address": "333 West Camden Street",
+    "team": "Baltimore Orioles"
+  },
+  {
+    "stadium_name": "Petco Park",
+    "city": "San Diego, California",
+    "address": "19 Tony Gwynn Drive",
+    "team": "San Diego Padres"
+  },
+  {
+    "stadium_name": "PNC Park",
+    "city": "Pittsburgh, Pennsylvania",
+    "address": "115 Federal Street",
+    "team": "Pittsburgh Pirates"
+  },
+  {
+    "stadium_name": "Progressive Field",
+    "city": "Cleveland, Ohio",
+    "address": "2401 Ontario Street",
+    "team": "Cleveland Guardians"
+  },
+  {
+    "stadium_name": "RingCentral Coliseum",
+    "city": "Oakland, California",
+    "address": "7000 Coliseum Way",
+    "team": "Oakland Athletics"
+  },
+  {
+    "stadium_name": "Rogers Centre",
+    "city": "Toronto, Ontario, Canada",
+    "address": "1 Blue Jays Way",
+    "team": "Toronto Blue Jays"
+  },
+  {
+    "stadium_name": "T-Mobile Park",
+    "city": "Seattle, Washington",
+    "address": "1250 1st Avenue South",
+    "team": "Seattle Mariners"
+  },
+  {
+    "stadium_name": "Target Field",
+    "city": "Minneapolis, Minnesota",
+    "address": "1 Twins Way",
+    "team": "Minnesota Twins"
+  },
+  {
+    "stadium_name": "Tropicana Field",
+    "city": "St. Petersburg, Florida",
+    "address": "One Tropicana Drive",
+    "team": "Tampa Bay Rays"
+  },
+  {
+    "stadium_name": "Truist Park",
+    "city": "Cumberland, Georgia",
+    "address": "755 Battery Avenue SE",
+    "team": "Atlanta Braves"
+  },
+  {
+    "stadium_name": "Wrigley Field",
+    "city": "Chicago, Illinois",
+    "address": "1060 West Addison Street",
+    "team": "Chicago Cubs"
+  },
+  {
+    "stadium_name": "Yankee Stadium",
+    "city": "The Bronx, New York City",
+    "address": "1 East 161st Street",
+    "team": "New York Yankees"
+  }
+]
