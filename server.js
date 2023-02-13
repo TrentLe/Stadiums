@@ -1,5 +1,5 @@
 const express = require('express');
-const routes = require('./routes');
+const routes = require('./controllers');
 const sequelize = require('./config/connection');
 
 // Import Express Handlebars
@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(require('./controllers/index'))
 
 // turn on routes
-app.use(routes);
+// app.use(routes);
 
 // turn on connection to db and server
 sequelize.sync({ force: false }).then(() => {

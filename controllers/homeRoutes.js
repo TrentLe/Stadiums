@@ -1,21 +1,34 @@
 const router = require('express').Router();
-const { Project, User } = require('../models');
-const withAuth = require('../utils/auth');
+const { User } = require('../models');
+
+const MLBRoutes = require('./MLBFieldRoutes');
+const NBARoutes = require('./NBAArenaRoutes');
+const NFLRoutes = require('./NFLStadiumRoutes');
+const NHLRoutes = require('./NHLArenaRoutes');
+
+router.use('/MLB', MLBRoutes);
+router.use('/NBA', NBARoutes);
+router.use('/NFL', NFLRoutes);
+router.use('/NHL', NHLRoutes);
+
+
+
+// module.exports = router;
 
 router.get('/', async (req, res) => {
   try {
     // Get all projects and JOIN with user data
-    const projectData = await Project.findAll({
+    const projectData = await locations.findAll({
       include: [
         {
           model: User,
-          attributes: ['name'],
+          attributes: ['stadium_name'],
         },
       ],
     });
 
     // Serialize data so the template can read it
-    const projects = projectData.map((project) => project.get({ plain: true }));
+    const projects = projectData.map((locations) => locations.get({ plain: true }));
 
     // Pass serialized data and session flag into template
     res.render('homepage', { 
@@ -27,7 +40,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/project/:id', async (req, res) => {
+router.get('/locations/:id', async (req, res) => {
   try {
     const projectData = await Project.findByPk(req.params.id, {
       include: [
