@@ -1,38 +1,26 @@
 const router = require('express').Router();
 const { User } = require('../models');
 
-const MLBRoutes = require('./MLBFieldRoutes');
-const NBARoutes = require('./NBAArenaRoutes');
-const NFLRoutes = require('./NFLStadiumRoutes');
-const NHLRoutes = require('./NHLArenaRoutes');
-
-router.use('/MLB', MLBRoutes);
-router.use('/NBA', NBARoutes);
-router.use('/NFL', NFLRoutes);
-router.use('/NHL', NHLRoutes);
-
-
-
 // module.exports = router;
 
 router.get('/', async (req, res) => {
   try {
-    // Get all projects and JOIN with user data
-    const projectData = await locations.findAll({
-      include: [
-        {
-          model: User,
-          attributes: ['stadium_name'],
-        },
-      ],
-    });
+//     // Get all projects and JOIN with user data
+//     const projectData = await locations.findAll({
+//       include: [
+//         {
+//           model: User,
+//           attributes: ['stadium_name'],
+//         },
+//       ],
+//     });
 
-    // Serialize data so the template can read it
-    const projects = projectData.map((locations) => locations.get({ plain: true }));
+//     // Serialize data so the template can read it
+//     const projects = projectData.map((locations) => locations.get({ plain: true }));
 
     // Pass serialized data and session flag into template
     res.render('homepage', { 
-      projects, 
+     
       logged_in: req.session.logged_in 
     });
   } catch (err) {
@@ -40,35 +28,13 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/locations/:id', async (req, res) => {
-  try {
-    const projectData = await Project.findByPk(req.params.id, {
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
-    });
-
-    const project = projectData.get({ plain: true });
-
-    res.render('project', {
-      ...project,
-      logged_in: req.session.logged_in
-    });
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
 
 // Use withAuth middleware to prevent access to route
 router.get('/profile', withAuth, async (req, res) => {
   try {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
-      attributes: { exclude: ['password'] },
-      include: [{ model: Project }],
+      attributes: { exclude: ['password'] }
     });
 
     const user = userData.get({ plain: true });
