@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { User } = require('../models');
 
 
+
 router.get('/', async (req, res) => {
   try {
 //     // Get all projects and JOIN with user data
@@ -20,10 +21,11 @@ router.get('/', async (req, res) => {
     // Pass serialized data and session flag into template
     res.render('homepage', { 
      
-      logged_in: req.session.logged_in 
+      logged_in: true
     });
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500).json('Am i even working?');
+    console.log(err)
   }
 });
 
@@ -59,8 +61,6 @@ router.get('/login', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-
-  res.render('login');
 });
 
 module.exports = router;
