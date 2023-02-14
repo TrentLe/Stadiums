@@ -1,102 +1,122 @@
-<section class="text-center">
-  <!-- Background image -->
-  <div class="width-100" style="
-        background-image: url('https://mdbootstrap.com/img/new/textures/full/171.jpg');
-        height: 250px;
-        "></div>
+<body style="
+background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Amazing-Baseball-Stadium-Background.jpg');
+" class="back">
+  
 
-  <div class="card mx-4 mx-md-5 shadow-5-strong" style="
-        margin-top: -100px;
+      <section  class="text-center row d-flex justify-content-around w-100">
+
+      
+        <div class="card mx-4 mx-md-5 shadow-5-strong col-lg-4 " style="
+              margin-top: 50px;
+              background: hsla(0, 0%, 100%, 0.8);
+              backdrop-filter: blur(30px);
+              ">
+          <div class="card-body py-5 px-md-5 row">
+      
+            <div class="row">
+              <div>
+                <h1 class="fw-bold mb-5 mt-2">Welcome to TrackKings</h1>
+                <p class="info">
+                  Here at TrackKings we like sports, all of them. We asked ourselves how we can
+                  get more interactive in our sports watching experience. We ended up with this website.
+                  We have made the ability to track the stadiums you have attended and check upcoming 
+                  games happening in stadiums you have yet to attend. We hope you get to them all! 
+                  Sign up to get started!
+                </p>
+      
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+
+        <div class="card mx-4 mx-md-5 shadow-5-strong col-lg-4" style="
+        margin-top: 50px;
         background: hsla(0, 0%, 100%, 0.8);
         backdrop-filter: blur(30px);
         ">
-    <div class="card-body py-5 px-md-5 row">
+    <div class="card-body py-5 px-md-5 row co">
 
-      <div class="row col-lg-4">
+      <div class="row">
         <div>
-          <h2 class="fw-bold mb-5">Welcome to ''</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptates, quod voluptas, quia, voluptatem quae natus
-            exercitationem voluptatibus autem quibusdam quidem. Quisquam
-            voluptates, quod voluptas, quia, voluptatem quae natus
-            exercitationem voluptatibus autem quibusdam quidem.
-          </p>
+          <div class="" id="form1" style="display: block;">
+            <h2 class="fw-bold mb-5">Login</h2>
+            <div class="py-5 px-md-5">
+    
+              <form>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form2Example1" class="form-control" />
+                  <label class="form-label" for="form2Example1">Email address</label>
+                </div>
+    
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="form2Example2" class="form-control" />
+                  <label class="form-label" for="form2Example2">Password</label>
+                </div>
+    
+                <!-- Submit button -->
+                <button type="button" class="btn btn-primary btn-block mb-4">Login</button>
+                <h6>OR</h6>
+                <button onclick="toggleForms(event)" type="button" class="btn btn-link">Sign Up</button>
+              </form>
+    
+            </div>
+          </div>
+
+          <div class="row" id="form2" style="display: none;">
+            <div>
+              <h2 class="fw-bold mb-5">Sign Up Now</h2>
+              <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example1" class="form-control" />
+                      <label class="form-label" for="form3Example1">First name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example2" class="form-control" />
+                      <label class="form-label" for="form3Example2">Last name</label>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form3Example3" class="form-control" />
+                  <label class="form-label" for="form3Example3">Email address</label>
+                </div>
+    
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="form3Example4" class="form-control" />
+                  <label class="form-label" for="form3Example4">Password</label>
+                </div>
+    
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4" >
+                  Sign Up
+                </button>
+
+                <h6>OR</h6>
+                <button onclick="toggleForms(event)" type="button" class="btn btn-link">Login</button>
+    
+                </div>
+              </form>
+            </div>
 
             </div>
           </form>
         </div>
-        <div class="col-lg-4">
-          <h2 class="fw-bold mb-5">Login</h2>
-          <div class="py-5 px-md-5">
-  
-            <form>
-              <!-- Email input -->
-              <div class="form-outline mb-4">
-                <input type="email" id="form2Example1" class="form-control" />
-                <label class="form-label" for="form2Example1">Email address</label>
-              </div>
-  
-              <!-- Password input -->
-              <div class="form-outline mb-4">
-                <input type="password" id="form2Example2" class="form-control" />
-                <label class="form-label" for="form2Example2">Password</label>
-              </div>
-  
-              <!-- Submit button -->
-              <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
-  
-            </form>
-  
-          </div>
-        </div>
-        <div class="row col-lg-4">
-          <div>
-            <h2 class="fw-bold mb-5">Sign up now</h2>
-            <form>
-              <!-- 2 column grid layout with text inputs for the first and last names -->
-              <div class="row">
-                <div class="col-md-6 mb-4">
-                  <div class="form-outline">
-                    <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label" for="form3Example1">First name</label>
-                  </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                  <div class="form-outline">
-                    <input type="text" id="form3Example2" class="form-control" />
-                    <label class="form-label" for="form3Example2">Last name</label>
-                  </div>
-                </div>
-              </div>
-  
-              <!-- Email input -->
-              <div class="form-outline mb-4">
-                <input type="email" id="form3Example3" class="form-control" />
-                <label class="form-label" for="form3Example3">Email address</label>
-              </div>
-  
-              <!-- Password input -->
-              <div class="form-outline mb-4">
-                <input type="password" id="form3Example4" class="form-control" />
-                <label class="form-label" for="form3Example4">Password</label>
-              </div>
-  
-              <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-block mb-4">
-                Sign up
-              </button>
-  
-              </div>
-            </form>
-          </div>
       </div>
     </div>
   </div>
-
-  
-
-      </section>
-      <!-- Section: Design Block -->
-
-        <script src="./js/login.js"></script>
+</section>
+</body>
