@@ -1,28 +1,50 @@
-{{!-- <!-- Loop over each object in the projects array -->
-{{#each projects as |project| }}
-<div class="row mb-4 project">
-  <div class="col-md-5">
-    <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{{get_emoji}}}
-      <a href="/project/{{project.id}}">{{project.name}}</a>
-    </h2>
-    <p>
-      <span for="img" aria-label="money">💲</span>
-      <!-- Pass needed_funding value to the helper function -->
-      <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
-      needed!
-    </p>
-    <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
+<div class="container">
+    <h2 class="m-4">Results</h2>
+    <div class="d-flex flex-column border rounded border-dark-subtle">
+      <button class="btn border-bottom w-100 d-flex flex-row justify-content-center align-items-center">
+        <div class="my-2 me-5 w-100"> 
+          <h5>NFL</h5>
+          <h3>TeamLogo vs. TeamLogo</h3>
+          <p>TeamName - TeamName</p>
+        </div>
+      <div class="m-3 w-100">
+        <h3>Stadium Ex.</h3>
+        <p>City</p>
+      </div>
+      <div class="my-3 d-flex flex-column w-50 justify-content-start">
+        <h3>FEB</h3>
+        <h2>24th</h2>
+      </div>
+    </button>
+    <button class="btn border-bottom w-100 d-flex flex-row justify-content-center align-items-center">
+      <div class="my-2 me-5 w-100"> 
+        <h5>NFL</h5>
+        <h3>TeamLogo vs. TeamLogo</h3>
+        <p>TeamName - TeamName</p>
+      </div>
+    <div class="m-3 w-100">
+      <h3>Stadium Ex.</h3>
+      <p>City</p>
+    </div>
+    <div class="my-3 d-flex flex-column w-50 justify-content-start">
+      <h3>FEB</h3>
+      <h2>29th</h2>
+    </div>
+  </button>
+  <button class="btn border-bottom w-100 d-flex flex-row justify-content-center align-items-center">
+    <div class="my-2 me-5 w-100"> 
+      <h5>NFL</h5>
+      <h3>TeamLogo vs. TeamLogo</h3>
+      <p>TeamName - TeamName</p>
+    </div>
+  <div class="m-3 w-100">
+    <h3>Stadium Ex.</h3>
+    <p>City</p>
   </div>
-  <div class="col-md-7">
-    <p>
-      {{project.description}}
-    </p>
+  <div class="my-3 d-flex flex-column w-50 justify-content-start">
+    <h3>MAR</h3>
+    <h2>13th</h2>
   </div>
-</div>
-{{/each}} --}}
-
-<div>
-  HI
-</div>
+</button>
+    </div>
+  </div>
