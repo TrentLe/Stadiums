@@ -62,7 +62,9 @@ background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Ama
                 <!-- Submit button -->
                 <button type="button" class="btn btn-primary btn-block mb-4">Login</button>
                 <h6>OR</h6>
-                <button onclick="toggleForms(event)" type="button" class="btn btn-link">Sign Up</button>
+
+                <button id="switchBtn" type="button" class="btn btn-link switchBtn"  onclick="toggleForms(event)">Sign Up</button>
+
               </form>
     
             </div>
@@ -106,7 +108,9 @@ background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Ama
                 </button>
 
                 <h6>OR</h6>
-                <button onclick="toggleForms(event)" type="button" class="btn btn-link">Login</button>
+
+                <button id="switchBtn" type="button" class="btn btn-link" onclick="toggleForms(event)">Login</button>
+
     
                 </div>
               </form>
@@ -120,3 +124,5 @@ background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Ama
   </div>
 </section>
 </body>
+<script src="../public/js/login.js"></script>
+
