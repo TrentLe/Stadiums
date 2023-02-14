@@ -44,6 +44,14 @@ const signupFormHandler = async (event) => {
   }
 };
 
+function toggleForms(event) {
+  event.preventDefault();
+  var login = document.getElementById("form1");
+  var signup = document.getElementById("form2");
+  login.style.display = (login.style.display === "none") ? "block" : "none";
+  signup.style.display = (signup.style.display === "block") ? "none" : "block";
+}
+
 document
   .querySelector('.login-form')
   .addEventListener('submit', loginFormHandler);
