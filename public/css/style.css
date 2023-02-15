@@ -33,6 +33,12 @@ header, .project:not(:last-child) {
   box-shadow: inset 0 0 100px #000000;
 }
 
+.input {
+  top: 30%;
+  right: 10%;
+  width: 20%;
+}
+
 .results {
   margin-top: 5rem;
   margin-right: 5rem;
@@ -48,4 +54,9 @@ header, .project:not(:last-child) {
 
 .shadow {
   box-shadow: inset 0 0 10px #000000;
+}
+
+.pfp {
+  width: 300px;
+  max-width: 300px;
 }
