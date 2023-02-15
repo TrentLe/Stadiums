@@ -60,3 +60,13 @@ header, .project:not(:last-child) {
   width: 300px;
   max-width: 300px;
 }
+
+.logo {
+  width: 100px;
+  max-width: 100px;
+}
+
+.logo2 {
+  width: 75px;
+  max-width: 75px;
+}
