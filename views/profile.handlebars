@@ -1,48 +1,71 @@
-<div class="row">
-  <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
-  </div>
+<body style="background-image: url('https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/12/28/16407114115545.jpg');" class="masthead">
+<div class="d-flex">
+<div class="container-fluid card profile mx-5">
+    <div>
+        <div class="d-flex flex-column justify-content-center align-items-start">
+            <div class="d-flex flex-column justify-content-center align-items-center p-3 m-4">
+                <h2 class="my-3">Welcome!</h2>
+                <img class="w-0 rounded-circle" src="./assets/profileplaceholder_50.jpg"></img>
+                <h2 class="m-3">Profile Name</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card m-5" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">About:</li>
+          <li class="list-group-item">mail@mail.com</li>
+          <li class="list-group-item">888-888-8888</li>
+        </ul>
+      </div>
 </div>
 
-<div class="row mt-4">
-  <div class="col-md-6">
-    <h3>Create a New Project:</h3>
-
-    <form class="form new-project-form">
-      <div class="form-group">
-        <label for="project-name">project name:</label>
-        <input class="form-input" type="text" id="project-name" name="project-name" />
+<div class="results card text-center">
+  <div class="d-flex position-relative flex-row h-0 w-50 justify-content-around m-5 px-1">
+    <h2>Visited Stadiums</h2>
+    <h2>Upcoming Trips</h2>
+    </div>
+    <div class="row h-100 w-50 mx-5">
+      <div class="col border">
+        <button class="btn border-bottom d-flex flex-row w-100">
+          <div class="m-3 w-100">
+            <h5>Stadium Ex.</h5>
+            <p>City</p>
+          </div>
+          <div class="d-flex flex-column m-3 w-100">
+            <h5>FEB</h5>
+            <h5>24th</h5>
+          </div>
+        </button>
+        <button class="btn border-bottom d-flex flex-row w-100">
+          <div class="m-3 w-100">
+            <h5>Stadium Ex.</h5>
+            <p>City</p>
+          </div>
+          <div class="d-flex flex-column m-3 w-100">
+            <h5>FEB</h5>
+            <h5>24th</h5>
+          </div>
+        </button>
       </div>
-      <div class="form-group">
-        <label for="project-funding">needed funding ($):</label>
-        <input class="form-input" type="number" id="project-funding" name="project-funding" />
-      </div>
-      <div class="form-group">
-        <label for="project-desc">description:</label>
-        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
-      </div>
-    </form>
-  </div>
-
-  {{#if projects.length}}
-  <div class="col-md-6 project-list">
-    <h3>Current Projects:</h3>
-
-    {{#each projects as |project|}}
-    <div class="row mb-2">
-      <div class="col-md-8">
-        <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
-      </div>
-      <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
+      <div class="col border">
+        <button class="btn border-bottom d-flex flex-row w-100">
+          <div class="m-3 w-100">
+            <h5>Stadium Ex.</h5>
+            <p>City</p>
+          </div>
+          <div class="d-flex flex-column m-3 w-100">
+            <h5>FEB</h5>
+            <h5>24th</h5>
+          </div>
+        </button>
       </div>
     </div>
-    {{/each}}
   </div>
-  {{/if}}
-</div>
+  <div class="input position-absolute">
+    <h3>Already visit a stadium? Add it here!</h3>
+    <input class="form-control" type="text" value="Search" aria-label="readonly input example" readonly>
+    </div>
+  </div>
+  </body>
 
 <script src="./js/profile.js"></script>
