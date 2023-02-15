@@ -46,21 +46,21 @@ background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Ama
             <h2 class="fw-bold mb-5">Login</h2>
             <div class="py-5 px-md-5">
     
-              <form>
+              <form class="form login-form">
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                  <input type="email" id="form2Example1" class="form-control" />
-                  <label class="form-label" for="form2Example1">Email address</label>
+                  <input type="email" id="email-login" class="form-control" />
+                  <label class="form-label" for="email-login">Email address</label>
                 </div>
     
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-                  <input type="password" id="form2Example2" class="form-control" />
-                  <label class="form-label" for="form2Example2">Password</label>
+                  <input type="password" id="password-login" class="form-control" />
+                  <label class="form-label" for="password-login">Password</label>
                 </div>
     
                 <!-- Submit button -->
-                <button type="button" class="btn btn-primary btn-block mb-4">Login</button>
+                <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
                 <h6>OR</h6>
 
                 <button id="switchBtn" type="button" class="btn btn-link switchBtn"  onclick="toggleForms(event)">Sign Up</button>
@@ -73,33 +73,33 @@ background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Ama
           <div class="row" id="form2" style="display: none;">
             <div>
               <h2 class="fw-bold mb-5">Sign Up Now</h2>
-              <form>
+              <form class="form signup-form">
                 <!-- 2 column grid layout with text inputs for the first and last names -->
                 <div class="row">
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" id="form3Example1" class="form-control" />
-                      <label class="form-label" for="form3Example1">First name</label>
+                      <input type="text" id="name-signup" class="form-control" />
+                      <label class="form-label" for="name-signup">First name</label>
                     </div>
                   </div>
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" id="form3Example2" class="form-control" />
-                      <label class="form-label" for="form3Example2">Last name</label>
+                      <input type="text" id="" class="form-control" />
+                      <label class="form-label" for="">Last name</label>
                     </div>
                   </div>
                 </div>
     
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                  <input type="email" id="form3Example3" class="form-control" />
-                  <label class="form-label" for="form3Example3">Email address</label>
+                  <input type="email" id="email-signup" class="form-control" />
+                  <label class="form-label" for="email-signup">Email address</label>
                 </div>
     
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-                  <input type="password" id="form3Example4" class="form-control" />
-                  <label class="form-label" for="form3Example4">Password</label>
+                  <input type="password" id="password-signup" class="form-control" />
+                  <label class="form-label" for="password-signup">Password</label>
                 </div>
     
                 <!-- Submit button -->
@@ -124,5 +124,5 @@ background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Ama
   </div>
 </section>
 </body>
-
+<script src="../public/js/login.js"></script>
 
